@@ -189,7 +189,7 @@ const util = (() => {
       const timeLeft = animationEnd - Date.now();
       const ticks = 100;
 
-      skew = 4;
+      skew = 3;
 
       await confetti({
         particleCount: 1,

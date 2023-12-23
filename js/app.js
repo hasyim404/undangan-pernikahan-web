@@ -308,7 +308,7 @@ const audio = (() => {
 })();
 
 const pagination = (() => {
-  const perPage = 50;
+  const perPage = 10;
   let pageNow = 0;
   let resultData = 0;
 
